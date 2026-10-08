@@ -1,0 +1,20 @@
+# Script output
+*.log
+*.csv
+*.xlsx
+logs/
+output/
+
+# Local configuration and secrets
+config.psd1
+config.json
+*.local.*
+*.secret*
+*.cred.xml
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
