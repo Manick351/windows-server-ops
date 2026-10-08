@@ -1,0 +1,6 @@
+Name,Window,Description
+srv-app-01.contoso.local,09:00-12:00,Application server
+srv-app-02.contoso.local,09:00-12:00,Application server
+srv-db-01.contoso.local,18:00-00:00,Database server - patch after hours
+srv-file-01.contoso.local,18:00-00:00,File server
+dc-01.contoso.local,18:00-00:00,Domain controller - skipped unless -IncludeDomainControllers

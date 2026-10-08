@@ -1,6 +1,7 @@
 # Script output
 *.log
 *.csv
+!examples/*.csv
 *.xlsx
 logs/
 output/
@@ -18,3 +19,7 @@ config.json
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Run output folders
+PatchRun_*/
+TomcatAudit_*/
