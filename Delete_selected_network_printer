@@ -1,3 +1,0 @@
-$pcname = Read-Host "Введи имя ПК"
-$Result = (Get-Printer -computername $pcname | Out-GridView -Title 'Выбрать принтер'  -OutputMode Multiple).Name
-Invoke-Command -ComputerName $pcname -ScriptBlock { Get-Printer | Where-Object { $_.Name -match "$Using:Result" } | Remove-Printer }
